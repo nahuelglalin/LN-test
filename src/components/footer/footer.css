@@ -1,0 +1,173 @@
+* {
+    font-size: 14px;
+}
+
+.footer {
+    margin: 3em 0;
+}
+
+.lay {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1340px;
+    padding-right: 2.5em;
+    padding-left: 2.5em;
+}
+
+.footer-header {
+    margin-bottom: 1.25em;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1em;
+    border-bottom: 1px solid rgb(160, 160, 160);
+    margin-bottom: 1em;
+}
+
+.footer-redes {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer-redes i {
+    margin-right: 2em;
+    font-size: 25px;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-logo img {
+    width: 190px;
+}
+
+.footer-app {
+    display: flex;
+    justify-content: end;
+}
+
+.footer-app a {
+    margin-left: 1em;
+    
+}
+
+.footer-sitio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.item_link {
+    margin-right: .5em;
+    padding: 0;
+    color: #1954c2;
+}
+
+.footer-captcha {
+    text-align: end;
+}
+
+.footer-captcha a {
+    text-decoration: none;
+}
+
+.footer-copyright {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-copyright-fiscal {
+    display: block;
+}
+
+.footer-copyright-fiscal img{
+    vertical-align: top;
+}
+
+.data-fiscal-img {
+    width: 30px;
+    margin-left: .5em;
+}
+
+
+@media screen and (max-width: 980px) {
+
+    .footer-header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: none; 
+    }
+
+    .footer-logo {
+        order: 1;
+        padding-bottom: 1.25em;
+        width: 90vw;
+        border-bottom: 1px solid rgb(160, 160, 160);
+    }
+
+    .footer-redes {
+        order: 2;
+        padding: 1.25em 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-redes i {
+        margin: 0 1em;
+        font-size: 25px;
+    }
+
+    .footer-app {
+        order: 3;
+        justify-content: center;
+    }
+    
+    .footer-app a {
+        margin: 0 1em;
+    }
+
+    .footer-sitio {
+        display: none;
+    }
+
+    .footer-copyright {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .footer-copyright-fiscal {
+        order: 1;
+    }
+
+    .footer-copyright-fiscal p {
+        text-align: center;
+    }
+       
+    .footer-copyright-reserved {
+        order: 2;
+    }
+
+    .footer-copyright-reserved p {
+        text-align: center;
+    }
+
+
+}
+

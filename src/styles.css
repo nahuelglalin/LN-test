@@ -1,0 +1,85 @@
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.header {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    display: block;
+    border-bottom: 1px solid #cccccc;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #fff;
+    width: 100%;
+    z-index: 1000;
+}
+
+.lay {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1340px;
+    padding-right: 2.5em;
+    padding-left: 2.5em;
+}
+
+.com-usuario {
+    text-align: right;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: Arial;
+    line-height: 1rem;
+    display: flex;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+}
+
+.--btn {
+    font-family: "Arial", "sans-serif";
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 0.75em 1.5em;
+    text-transform: uppercase;
+    border-radius: 3px;
+    -webkit-transition: opacity .2s ease-in-out;
+    transition: opacity .2s ease-in-out;
+}
+
+.--highlight {
+    box-sizing: border-box;
+    margin: 0;
+    margin-right: 35px;
+    font-family: "Arial", "sans-serif";
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 3px;
+    transition: opacity .2s ease-in-out;
+    font-size: 0.75em;
+    padding: 0.75em 1.5em;
+    background-color: #ffff24;
+    border: 1px solid #cccccc;
+    color: #000000;
+}
+
+.--secondary {
+    background-color: #ffffff;
+    border: 1px solid #0074c4;
+    color: #0074c4;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}

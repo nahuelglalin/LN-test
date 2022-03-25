@@ -1,0 +1,49 @@
+.body-section {
+    margin: 2em 0;
+}
+
+.body-notices {
+    margin: 1em 0;
+}
+
+.body-title {
+    display: inline;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    font-weight: 400;
+    border-bottom: 3px solid #000000;
+}
+
+.body-tags {
+    margin: 1em 0 0;
+    display: flex;
+}
+
+.body-tags {
+    text-decoration: none;
+    margin-right: .5em;
+    color: #1954c2;
+}
+
+.notes {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.body-tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.body-tags-item  {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: .8em;
+    margin-bottom: 0;
+}
+
+.body-tags p{
+   color: #1954c2; 
+   font-size: 1.1em;
+}

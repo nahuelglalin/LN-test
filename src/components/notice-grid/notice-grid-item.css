@@ -1,0 +1,59 @@
+.gallery {
+    display: grid;
+    gap: 3.5em;
+    grid-auto-rows: 23rem;
+    grid-template-columns: repeat(auto-fill, minmax(23rem, 1fr));
+}
+
+.notice-card {
+    display: inline-grid;
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+}
+
+.notice-img {
+   max-height: 100%;
+   height: 250px;
+   max-width: 100%;
+   overflow: hidden;
+   display: flex;
+   -webkit-box-pack: center;
+   justify-content: center;
+   -webkit-box-align: center;
+   align-items: center;
+}
+
+.notice-img img {
+    display: flex;
+    width: 135%;
+    top: 0;
+}
+
+.notice-info p{
+    color: rgb(70, 70, 70);
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: start;
+    font-family: 'Roboto Slab', serif;
+}
+
+.notice-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.notice-info label {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(124, 124, 124);
+}
+  
+
+@media screen and (max-width: 390px) {
+    .notice-card {
+        width: 92%;
+    }
+}
+
